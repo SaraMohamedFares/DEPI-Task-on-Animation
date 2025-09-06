@@ -35,8 +35,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 
 void main() async{
-  WidgetsFlutterBinding.ensureInitialized();
-  await ServicesHelperDio.getItems();
   runApp(MyApp());
 }
 
@@ -51,4 +49,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
